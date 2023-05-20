@@ -1,0 +1,98 @@
+*{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    background-color: #000000e5;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  
+
+  input[type="text"],
+  input[type="email"],
+
+  input #name #email{
+    padding-left: 10px;
+    border-radius: 5px;
+    min-width: 98.5%;
+    min-height: 30px;
+    border-color:rgba(0, 0, 0, 0.314);
+    color: black;
+  }
+  
+
+  option{
+    color: black;
+  }
+
+  select {
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #45a049;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #fffafa;
+  }
+
+  textarea{
+    min-width:95%;
+    color: black;
+    min-height: 100px;
+    resize: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  body{
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    z-index: -1;
+    
+  }
+
+body::after {
+    content: '';
+    background-image: url('background.jpg');
+    position: sticky;
+  }

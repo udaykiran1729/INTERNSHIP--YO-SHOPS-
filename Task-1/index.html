@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Survey</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    /* Basic styling for the form */
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Survey</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter your age" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>Male
+        <input type="radio" id="female" name="gender" value="female">Female
+      </div>
+
+      <div class="form-group">
+        <label for="favorite-movie">Favorite Gener:</label>
+        <select id="favorite-movie" name="favorite-movie" required>
+          <option value="">Select your favorite movie genre</option>
+          <option value="Action">Action</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Drama">Drama</option>
+          <option value="Romance">Romance</option>
+          <option value="Horror">Horror</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      
+
+      <div class="form-group">
+        <label for="favorite-movie">Favorite Movie:</label>
+        <input type="text" name="favorite-movie" placeholder="Movie name">
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select your country</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="favorite-actor">Favorite Actor:</label>
+        <input type="text" id="favorite-actor" name="favorite-actor" placeholder="Enter your favorite actor">
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name Of the Movie watched:</label>
+        <input type="text" id="name" name="name" placeholder="Movie Name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="rating">Movie Rating:</label>
+        <select id="rating" name="rating">
+          <option value="5">5 stars</option>
+          <option value="4">4 stars</option>
+          <option value="3">3 stars</option>
+          <option value="2">2 stars</option>
+          <option value="1">1 star</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" placeholder="Enter your feedback"></textarea>
+      </div>
+      
+      
+
+      <div class="form-group">
+        <label for="suggestions">Movie Suggestions:</label>
+        <textarea id="suggestions" name="suggestions" placeholder="Enter your movie suggestions"></textarea>
+      </div>
+
+
+      <div class="form-group">
+        <input style="text-align: justify;font-size: 5px;" type="checkbox" id="newsletter" name="declaration" value="true" required>
+        
+        <span style="text-align: justify;font-size: 15px;" >I hereby declare that the information provided above is sincere and genuine, originating from my honest thoughts and beliefs. 
+        </span>
+      </div>
+      
+      <button type="submit" onclick="alert('Thank You,For your Feedback')">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
